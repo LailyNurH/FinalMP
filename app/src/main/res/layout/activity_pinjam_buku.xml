@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pinjam_buku"
+    android:background="#fff">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="233dp"
+        android:background="@drawable/up1" />
+
+    <TextView
+        android:id="@+id/hello_tx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="69dp"
+        android:fontFamily="sans-serif-black"
+        android:padding="10dp"
+        android:text="Hello..."
+        android:textColor="#5e5e5e"
+        android:textSize="30dp" />
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/search_bar"
+        android:layout_width="370dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="146dp"
+        android:background="@color/ungu" />
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="250dp"
+        android:fontFamily="sans-serif-black"
+        android:padding="10dp"
+        android:text="CATEGORY"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="340dp"
+        android:padding="10dp"
+        android:text="View All"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/ijo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp">
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/horizontalScrollView">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/cat_1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="129dp"
+                    android:layout_height="38dp"
+                    android:background="@drawable/bg_btn" />
+
+                <ImageButton
+                    android:id="@+id/cat_2"
+                    android:layout_width="129dp"
+                    android:layout_height="38dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bg_btn"
+                    />
+
+                <ImageButton
+                    android:id="@+id/cat_3"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="129dp"
+                    android:layout_height="38dp"
+                    android:background="@drawable/bg_btn" />
+                <ImageButton
+                    android:id="@+id/cat_4"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="129dp"
+                    android:layout_height="38dp"
+                    android:background="@drawable/bg_btn" />
+                <ImageButton
+                    android:id="@+id/cat_5"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="129dp"
+                    android:layout_height="38dp"
+                    android:background="@drawable/bg_btn" />
+                <ImageButton
+                    android:id="@+id/cat_6"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="129dp"
+                    android:layout_height="38dp"
+                    android:background="@drawable/bg_btn" />
+                <ImageButton
+                    android:id="@+id/cat_7"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="129dp"
+                    android:layout_height="38dp"
+                    android:background="@drawable/bg_btn" />
+                <ImageButton
+                    android:id="@+id/cat_8"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="129dp"
+                    android:layout_height="38dp"
+                    android:background="@drawable/bg_btn"
+                    android:text="Jurnal" />
+            </LinearLayout>
+
+        </HorizontalScrollView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/fav_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="340dp"
+        android:fontFamily="sans-serif-black"
+        android:padding="10dp"
+        android:text="FAVORITE"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="340dp"
+        android:layout_marginTop="578dp"
+        android:fontFamily="sans-serif-black"
+        android:padding="10dp"
+        android:text="View All"
+        android:textColor="@color/ijo"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp">
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/horizontalScrollView2">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/book_1"
+                    android:layout_width="129dp"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/mm"
+                    android:text="Jurnal" />
+
+                <ImageButton
+                    android:id="@+id/book_2"
+                    android:layout_width="129dp"
+                    android:layout_height="160dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/pem"
+                    />
+
+                <ImageButton
+                    android:id="@+id/book_3"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="129dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/psp" />
+                <ImageButton
+                    android:id="@+id/book_4"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="129dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/show_pic" />
+                <ImageButton
+                    android:id="@+id/book_5"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="129dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/web"
+                    />
+                <ImageButton
+                    android:id="@+id/book_6"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="129dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/ai"
+                    />
+                <ImageButton
+                    android:id="@+id/book_7"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="129dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/andro" />
+                <ImageButton
+                    android:id="@+id/book_8"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="129dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/pyt" />
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/add_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="591dp"
+        android:fontFamily="sans-serif-black"
+        android:padding="10dp"
+        android:text="NEW ADDED"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="340dp"
+        android:padding="10dp"
+        android:text="View All"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/ijo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="650dp">
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/horizontalScrollView3">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/bookv_1"
+                    android:layout_width="175dp"
+                    android:layout_height="230dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/mm" />
+
+                <ImageButton
+                    android:id="@+id/bookv_2"
+                    android:layout_width="175dp"
+                    android:layout_height="230dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/pem"
+                    />
+
+                <ImageButton
+                    android:id="@+id/bookv_3"
+                    android:layout_width="175dp"
+                    android:layout_height="230dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/psp" />
+                <ImageButton
+                    android:id="@+id/bookV_4"
+                    android:layout_width="175dp"
+                    android:layout_height="230dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/show_pic" />
+                <ImageButton
+                    android:id="@+id/bookv_5"
+                    android:layout_width="175dp"
+                    android:layout_height="230dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/web"
+                    />
+                <ImageButton
+                    android:id="@+id/bookv_6"
+                    android:layout_width="175dp"
+                    android:layout_height="230dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/ai"
+                    />
+                <ImageButton
+                    android:id="@+id/bookv_7"
+                    android:layout_width="175dp"
+                    android:layout_height="230dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/andro" />
+                <ImageButton
+                    android:id="@+id/bookv_8"
+                    android:layout_width="175dp"
+                    android:layout_height="230dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/pyt" />
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+
+</RelativeLayout>

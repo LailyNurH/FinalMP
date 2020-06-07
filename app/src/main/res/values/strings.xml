@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Final</string>
+    <string name="j1">AMIKOM</string>
+    <string name="j2">PINJAMIN</string>
+    <string name="login">Login</string>
+    <string name="hint_nim">Nomer Induk Mahasiswa</string>
+    <string name="hint_pass">Password</string>
+    <string name="akun">Belum Memiliki Akun ? <b><font fgcolor='#3CDA85'>Register.</font></b></string>
+</resources>
