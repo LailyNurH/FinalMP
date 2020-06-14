@@ -8,6 +8,7 @@
         <item name="colorAccent">@color/colorAccent</item>
         <item name="colorControlHighlight">@color/ijo</item>
         <item name="colorButtonNormal">@color/ungu</item>
+        <item name="android:windowBackground">@drawable/logo2</item>
     </style>
 
 </resources>

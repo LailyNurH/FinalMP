@@ -11,19 +11,29 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="233dp"
-        android:background="@drawable/up1" />
+        android:background="@drawable/bg2" />
+
+    <ImageView
+        android:id="@+id/logoo"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="41dp"
+        android:background="@drawable/logo" />
 
     <TextView
-        android:id="@+id/hello_tx"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="69dp"
+        android:layout_marginLeft="136dp"
+        android:layout_marginTop="42dp"
         android:fontFamily="sans-serif-black"
-        android:padding="10dp"
-        android:text="Hello..."
-        android:textColor="#5e5e5e"
-        android:textSize="30dp" />
+        android:text="PINJAM BUKU"
+        android:textColor="#fff"
+        android:textSize="40sp"
+        android:textStyle="bold" />
 
     <androidx.appcompat.widget.SearchView
         android:id="@+id/search_bar"
@@ -79,14 +89,14 @@
                     android:layout_marginRight="10dp"
                     android:layout_width="129dp"
                     android:layout_height="38dp"
-                    android:background="@drawable/bg_btn" />
+                    android:background="@drawable/kom" />
 
                 <ImageButton
                     android:id="@+id/cat_2"
                     android:layout_width="129dp"
                     android:layout_height="38dp"
                     android:layout_marginRight="10dp"
-                    android:background="@drawable/bg_btn"
+                    android:background="@drawable/saintek"
                     />
 
                 <ImageButton
@@ -94,25 +104,25 @@
                     android:layout_marginRight="10dp"
                     android:layout_width="129dp"
                     android:layout_height="38dp"
-                    android:background="@drawable/bg_btn" />
+                    android:background="@drawable/bio" />
                 <ImageButton
                     android:id="@+id/cat_4"
                     android:layout_marginRight="10dp"
                     android:layout_width="129dp"
                     android:layout_height="38dp"
-                    android:background="@drawable/bg_btn" />
+                    android:background="@drawable/diri" />
                 <ImageButton
                     android:id="@+id/cat_5"
                     android:layout_marginRight="10dp"
                     android:layout_width="129dp"
                     android:layout_height="38dp"
-                    android:background="@drawable/bg_btn" />
+                    android:background="@drawable/foto" />
                 <ImageButton
                     android:id="@+id/cat_6"
                     android:layout_marginRight="10dp"
                     android:layout_width="129dp"
                     android:layout_height="38dp"
-                    android:background="@drawable/bg_btn" />
+                    android:background="@drawable/ki" />
                 <ImageButton
                     android:id="@+id/cat_7"
                     android:layout_marginRight="10dp"
@@ -124,8 +134,7 @@
                     android:layout_marginRight="10dp"
                     android:layout_width="129dp"
                     android:layout_height="38dp"
-                    android:background="@drawable/bg_btn"
-                    android:text="Jurnal" />
+                    android:background="@drawable/bg_btn" />
             </LinearLayout>
 
         </HorizontalScrollView>

@@ -4,24 +4,98 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".menu"
-    android:background="@color/ijo">
+    android:background="#fff"
+    tools:context=".menu">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="237dp"
+        android:background="@drawable/up1" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="43dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/logo" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="PINDAH"
-        android:textSize="100sp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="145dp"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginLeft="20dp"
+        android:text="HELLO.."
         android:textColor="@color/black"
-        />
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="127dp"
+        android:layout_marginTop="45dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/j3"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
     <ImageButton
         android:id="@+id/move_pjmbuku"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="292dp"
-        android:layout_marginLeft="20dp"
-        android:background="@drawable/btn2" />
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="308dp"
+        android:background="@drawable/m_pb" />
+
+    <ImageButton
+        android:id="@+id/move_pjmruang"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="308dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/m_r" />
+
+    <ImageButton
+        android:id="@+id/move_riwayat"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="534dp"
+        android:background="@drawable/m_pr" />
+
+    <ImageButton
+        android:id="@+id/move_about"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="536dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/m_ab" />
+
+    <ImageButton
+        android:id="@+id/out"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="691dp"
+        android:background="@drawable/out" />
+
 
 </RelativeLayout>

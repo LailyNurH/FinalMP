@@ -9,20 +9,33 @@ import android.widget.Button;
 import android.widget.ImageButton;
 
 import android.os.Bundle;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
+    ImageButton nextbtn;
+    TextView regisbtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ImageButton btn1 =(ImageButton) findViewById(R.id.btn1);
-        btn1.setOnClickListener(new View.OnClickListener() {
+        nextbtn=(ImageButton)findViewById(R.id.btn1);
+        nextbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this , menu.class);
-                startActivity(intent);
+                Intent intenmenubtn=new Intent(MainActivity.this,menu.class);
+                startActivity(intenmenubtn);
+            }
+        });
+
+        regisbtn=(TextView)findViewById(R.id.register_text);
+        regisbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intenregisbtn=new Intent(MainActivity.this,registrasi.class);
+                startActivity(intenregisbtn);
             }
         });
     }

@@ -6,4 +6,7 @@
     <string name="hint_nim">Nomer Induk Mahasiswa</string>
     <string name="hint_pass">Password</string>
     <string name="akun">Belum Memiliki Akun ? <b><font fgcolor='#3CDA85'>Register.</font></b></string>
+    <string name="j3">AMIKOM PINJAM RUANG DAN BUKU</string>
+    <string name="tentang">Aplikasi Amikom Pinjamin adalah sebuah aplikasi yang di buat untuk memenuhi
+        Tugas Final Project Mata Kuliah Mobile Programming 1 yang di ampu oleh Bpk. Ganjar Widiatmansyah</string>
 </resources>
