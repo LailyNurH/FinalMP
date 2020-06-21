@@ -9,6 +9,7 @@ import android.widget.ImageButton;
 
 public class menu extends AppCompatActivity {
     ImageButton menubtn;
+    String user;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

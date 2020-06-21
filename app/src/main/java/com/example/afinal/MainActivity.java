@@ -6,11 +6,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageButton;
 
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     ImageButton nextbtn;
@@ -21,22 +23,23 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        nextbtn=(ImageButton)findViewById(R.id.btn1);
+
+        regisbtn = (TextView) findViewById(R.id.register_text);
+        regisbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intenregisbtn = new Intent(MainActivity.this, registrasi.class);
+                startActivity(intenregisbtn);
+            }
+        });
+        nextbtn = (ImageButton) findViewById(R.id.btn1);
         nextbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intenmenubtn=new Intent(MainActivity.this,menu.class);
+                Intent intenmenubtn = new Intent(MainActivity.this, menu.class);
                 startActivity(intenmenubtn);
             }
         });
 
-        regisbtn=(TextView)findViewById(R.id.register_text);
-        regisbtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intenregisbtn=new Intent(MainActivity.this,registrasi.class);
-                startActivity(intenregisbtn);
-            }
-        });
-    }
-}
+
+    }}

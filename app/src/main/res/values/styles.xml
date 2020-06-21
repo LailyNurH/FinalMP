@@ -9,6 +9,9 @@
         <item name="colorControlHighlight">@color/ijo</item>
         <item name="colorButtonNormal">@color/ungu</item>
         <item name="android:windowBackground">@drawable/logo2</item>
+        <item name="colorControlNormal">#d32f2f</item>
+        <item name="colorControlActivated">#ff5722</item>
+        <item name="color">#f44336</item>
     </style>
 
 </resources>
