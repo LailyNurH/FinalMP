@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".book1"
+    android:background="#fff">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="317dp"
+        android:background="@drawable/multi" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/r" />
+
+    <ImageView
+        android:layout_width="189dp"
+        android:layout_height="256dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="87dp"
+        android:background="@drawable/mm" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="366dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Multimedia: Alat Untuk Meningkatkan Keunggulan Bersaing"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="635dp"
+        android:text="@string/mm_book"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <ImageButton
+        android:id="@+id/btn_pinjam"
+        android:layout_width="172dp"
+        android:layout_height="53dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="27dp"
+        android:background="@drawable/pjm_btn" />
+
+    <ImageView
+        android:layout_width="396dp"
+        android:layout_height="165dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/d" />
+
+</RelativeLayout>
