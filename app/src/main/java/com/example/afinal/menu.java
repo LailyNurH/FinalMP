@@ -46,7 +46,7 @@ public class menu extends AppCompatActivity {
         menubtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intenmenubtn = new Intent(menu.this, riwayat.class);
+                Intent intenmenubtn = new Intent(menu.this, riwayatt.class);
                 startActivity(intenmenubtn);
             }
         });

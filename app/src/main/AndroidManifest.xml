@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".pinjambukuu"></activity>
+        <activity android:name=".riwayatt"></activity>
+        <activity android:name=".pinjambukuu" />
         <activity android:name=".book1" />
         <activity android:name=".catbook1" />
         <activity android:name=".frgmntdata" />
